@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+    background-image: url("https://wallpapercave.com/wp/wp4752291.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#about{
+    border: solid;
+    border-color: black;
+    width: 200px;
+    margin:5px auto;
+    margin-top: 10px;
+}
+#btn{
+    margin: 30px auto;
+}
+button{
+    background-color: blue;
+    color: black;
+    font-weight:bold;
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    margin: 13px;
+    border:solid;
+    border-color: black;
+    transition: transform.2s;
+    margin:10px;
+}
+p{
+    font-weight: bold;
+}
+button:hover{
+    color: red;
+    transform: scale(0.9);
+}
