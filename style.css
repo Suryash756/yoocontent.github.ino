@@ -29,8 +29,10 @@ button{
 }
 p{
     font-weight: bold;
+    text-decoration: underline;
 }
 button:hover{
     color: red;
     transform: scale(0.9);
+    text-shadow: 2px 2px black;
 }
